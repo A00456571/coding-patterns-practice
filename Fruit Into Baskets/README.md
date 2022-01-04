@@ -1,4 +1,4 @@
-# Heading 1 #Attempt 1 - general solution for any number of baskets
+# #Attempt 1 - general solution for any number of baskets
 * Longest contiguous substring with K distinct values
 * Sliding Window
 1. First calculate size of first window till k distinct reaches
@@ -11,7 +11,7 @@ The above algorithm’s time complexity will be O(N), where ‘N’ is the numbe
 Space Complexity#
 The algorithm runs in constant space O(1) as there can be a maximum of three types of fruits stored in the frequency map.
 
-# Heading 1 #Attempt 3 - specific to 2 baskets
+# #Attempt 3 - specific to 2 baskets
 Better soln(On ,O1)
 Loop all fruit c in tree,
 Note that a and b are the last two different types of fruit that we met,
