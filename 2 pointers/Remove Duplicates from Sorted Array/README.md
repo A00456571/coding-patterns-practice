@@ -7,8 +7,8 @@ Explanation: The first four elements after removing the duplicates will be [2, 3
 
 2 pointer solution complexities:-
 
-Time Complexity#
+**Time Complexity#
 The time complexity of the above algorithm will be O(N), where ‘N’ is the total number of elements in the given array.
 
-Space Complexity#
+**Space Complexity#
 The algorithm runs in constant space O(1).
