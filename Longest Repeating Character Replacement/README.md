@@ -21,3 +21,7 @@ Accessed the string values using toCharArray conversion in place of charAt. The 
 
 **Attempt 3 - 10ms**<br />
 Since the problem is only for uppercase characters, used array of 26 length to store repeats rather than hashmap.<br />
+
+
+**Attempt 4 - 9ms**<br />
+Did mAth.max update in else condition rather than every time as max will always remain same after code enters if condition<br />
