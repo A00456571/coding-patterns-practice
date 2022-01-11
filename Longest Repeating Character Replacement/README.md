@@ -29,3 +29,6 @@ Did mAth.max update in else condition rather than every time as max will always 
 
 **Attempt 5 - 8ms**<br />
 Combined freq increment and repeat max query in one.(++count[code])<br />
+
+**Attempt 6 - 4ms**<br />
+Combined start++ in if statement.<br />
