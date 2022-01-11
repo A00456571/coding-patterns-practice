@@ -1,3 +1,8 @@
+https://leetcode.com/problems/longest-repeating-character-replacement/
+<br />
+<br />
+<br />
+
 **Attempt 1 - 40ms**<br />
 Approach <br />
 This problem follows the Sliding Window pattern, and we can use a similar dynamic sliding window strategy as discussed in Longest Substring with Distinct Characters. We can use a HashMap to count the frequency of each letter.<br />
