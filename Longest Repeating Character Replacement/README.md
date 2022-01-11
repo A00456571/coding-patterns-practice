@@ -13,3 +13,6 @@ While shrinking the window, we don’t need to update maxRepeatLetterCount (henc
 **Attempt 2 - 18ms**<br />
 Accessed the string values using toCharArray conversion in place of charAt. The solution is faster than before.<br />
 <br />
+
+**Attempt 3 - 10ms**<br />
+Since the problem is only for uppercase characters, used array of 26 length to store repeats rather than hashmap.<br />
