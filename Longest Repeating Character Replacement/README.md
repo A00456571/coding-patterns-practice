@@ -25,3 +25,7 @@ Since the problem is only for uppercase characters, used array of 26 length to s
 
 **Attempt 4 - 9ms**<br />
 Did mAth.max update in else condition rather than every time as max will always remain same after code enters if condition<br />
+
+
+**Attempt 5 - 8ms**<br />
+Combined freq increment and repeat max query in one.(++count[code])<br />
