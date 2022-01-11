@@ -8,4 +8,8 @@ This problem follows the Sliding Window pattern, and we can use a similar dynami
       *``If the remaining letters are less than or equal to k, we can replace them all.``<br />
       *``If we have more than k remaining letters, we should shrink the window as we cannot replace more than k letters.``<br />
 
-While shrinking the window, we don’t need to update maxRepeatLetterCount (hence, it represents the maximum repeating count of ANY letter for ANY window). Why don’t we need to update this count when we shrink the window? Since we have to replace all the remaining letters to get the longest substring having the same letter in any window, we can’t get a better answer from any other window even though all occurrences of the letter with frequency maxRepeatLetterCount is not in the current window.
+While shrinking the window, we don’t need to update maxRepeatLetterCount (hence, it represents the maximum repeating count of ANY letter for ANY window). Why don’t we need to update this count when we shrink the window? Since we have to replace all the remaining letters to get the longest substring having the same letter in any window, we can’t get a better answer from any other window even though all occurrences of the letter with frequency maxRepeatLetterCount is not in the current window.<br />
+
+**Attempt 2**<br />
+Accessed the string values using toCharArray conversion in place of charAt. The solution is faster than before.<br />
+<br />
